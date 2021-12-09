@@ -3,9 +3,9 @@
 <?php 
 
  if(isset($_GET["status"]) && trim($_GET["status"]) == 'success') {
-  header("LOCATION: https://bradleyemanuels.com/checkout?sucess=yes"); 
+  header("LOCATION: https://bradleyemanuels.com/checkout?fghjklmsadjfsalkjfnlaskndlknfiafiuneoifomokamflakdsmcljsaknfdlkjsanfalksjnflsajfnlsakjfnlsakjfnsakjfnweboriubajchacasdfnasiflnwfenlasindflashbfkgkcuabkhcbsaljcanjacsdnciabckiuwbeabnxanlajsbdfhavufwofbaoiubfsaiudbfasdbfhjbkashlknlkjkslsaffsafodiuyhnjmoplloiuytfchbnjkmlpuytfcvghbnjkm"); 
  } else if(isset($_GET["status"]) && trim($_GET["status"]) == 'failed'){
-  header("LOCATION: https://bradleyemanuels.com/checkout?sucess=no");  
+  header("LOCATION: https://bradleyemanuels.com/checkout?saljdnfljnasdnsakdljnsfyauoiasdfsaiucnoiasnciusasuehapihiuasndfasocijnasjcascsacsaoncsanowiuefouiaruandsinaslicnalskjcnsakhbkayufawoflbdsndsacasiucnsacaiuslncleiuasiubsaudfbsalfabsfaddsanfoidsajnsaoicbaydsbcyusabcusabcsaiucbaoiucaoiucbaewobialcsanjcksabclksajbchsavckauebwybuewliuab");  
  }
  if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'){
   $url = "https://";   
@@ -881,9 +881,9 @@ jQuery(document).on('click', '#cash_on_delivery_button, #banktransfer_button', f
         )
         .catch(error => console.log('error', error));        
 });
-if(window.location.href == "https://bradleyemanuels.com/checkout?sucess=yes"){
+if(window.location.href == "https://bradleyemanuels.com/checkout?fghjklmsadjfsalkjfnlaskndlknfiafiuneoifomokamflakdsmcljsaknfdlkjsanfalksjnflsajfnlsakjfnlsakjfnsakjfnweboriubajchacasdfnasiflnwfenlasindflashbfkgkcuabkhcbsaljcanjacsdnciabckiuwbeabnxanlajsbdfhavufwofbaoiubfsaiudbfasdbfhjbkashlknlkjkslsaffsafodiuyhnjmoplloiuytfchbnjkmlpuytfcvghbnjkm"){
     jQuery("#update_cart_form").submit();
-} else if(window.location.href == "https://bradleyemanuels.com/checkout?sucess=no"){
+} else if(window.location.href == "https://bradleyemanuels.com/checkout?saljdnfljnasdnsakdljnsfyauoiasdfsaiucnoiasnciusasuehapihiuasndfasocijnasjcascsacsaoncsanowiuefouiaruandsinaslicnalskjcnsakhbkayufawoflbdsndsacasiucnsacaiuslncleiuasiubsaudfbsalfabsfaddsanfoidsajnsaoicbaydsbcyusabcusabcsaiucbaoiucaoiucbaewobialcsanjcksabclksajbchsavckauebwybuewliuab"){
     jQuery('#payment_error').show();
     alert("Payment Failed")
     document.getElementById('paymentError').style.display = "block";
