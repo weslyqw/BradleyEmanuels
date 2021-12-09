@@ -851,12 +851,12 @@ jQuery(document).on('click', '#cash_on_delivery_button, #banktransfer_button', f
         var dataphp = <?=$total_price?>;
         headers.append('Accept', 'application/json');
         var parameters = new URLSearchParams();
-        parameters.append('account_number', '1234567890');
+        parameters.append('account_number', '1904824870');
         parameters.append('avs', '0');
         parameters.append('country_code', 'TT');
         parameters.append('currency', 'TTD');
         parameters.append('data', '{"a":"b"}');
-        parameters.append('environment', 'sandbox');
+        parameters.append('environment', 'live');
         parameters.append('fee_structure', 'merchant_absorb');
         parameters.append('method', 'credit_card');
         parameters.append('order_id', 'oid_123-aBc');
